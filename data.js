@@ -1,6 +1,6 @@
 
 // cats object array
-const catsData = [
+export const catsData = [
     {
         emotionTags: ["moody"],
         isGif: false,
