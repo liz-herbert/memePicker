@@ -13,7 +13,10 @@ function getEmotionsArray(cats){
     for (let cat of cats){
         //push each emotion to the emotionsArray
         for (let emotion of cat.emotionTags){
+            //if the emotion array does not include the emotion then push the emotion to the array
+            if (!emotionsArray.includes(emotion)){
             emotionsArray.push(emotion)
+            }
         }
         
     }
